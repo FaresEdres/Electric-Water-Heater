@@ -6,6 +6,8 @@ ECUAL\LED\LED.c
 
 ECUAL\PushButton\PushButton.c
 
+ECUAL\SevenSegment\SevenSegment.c
+
 Main\main.c
 
 MCAL\ADC\ADC.c

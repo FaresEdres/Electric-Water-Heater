@@ -145,6 +145,12 @@
     <Compile Include="ECUAL\PushButton\PushButton.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="ECUAL\SevenSegment\SevenSegment.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="ECUAL\SevenSegment\SevenSegment.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Main\main.c">
       <SubType>compile</SubType>
     </Compile>
@@ -192,6 +198,7 @@
     <Folder Include="Debug\" />
     <Folder Include="ECUAL\" />
     <Folder Include="ECUAL\LED\" />
+    <Folder Include="ECUAL\SevenSegment" />
     <Folder Include="ECUAL\PushButton\" />
     <Folder Include="Main\" />
     <Folder Include="MCAL\" />

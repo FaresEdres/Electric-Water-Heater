@@ -7,6 +7,7 @@
 
 #include "TWI_config.h"
 #include "TWI.h"
+
 /*
 void TWI_Init(void)
 {
@@ -211,13 +212,12 @@ void TWI_init(void)
 	#endif
 
 }*/
-void main()
-{
-	//TWI_init();
-		TWSR=0X00;
-	TWBR=BITRATE(TWSR);
- /*Master Receive */
 
+	//TWI_init();
+		/*TWSR=0X00;
+	TWBR=BITRATE(TWSR);*/
+ /*Master Receive */
+/*
 	uint8_t data;
 	if(TWI_start()==OK)
 	{
@@ -232,7 +232,7 @@ void main()
 	
 
 
-/* Master Transmit*/
+/* Master Transmit*//*
 if(TWI_start()==OK)
 {
 	if (TWI_address_select(0x10,WRITE)== OK)
@@ -243,5 +243,5 @@ if(TWI_start()==OK)
 		}
 	}
 }
-
- }
+*/
+ 
